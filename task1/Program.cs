@@ -12,10 +12,10 @@ m = 3, n = 4.
 */
 
 
-Console.WriteLine("Введите количество строк: ");
+Console.WriteLine("Введите количество столбцов: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите количество столбцов: ");
+Console.WriteLine("Введите количество строк: ");
 int m = Convert.ToInt32(Console.ReadLine());
 
 double[,] array1 = new double[m, n];
